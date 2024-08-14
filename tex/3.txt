@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\geometry{
+  a4paper,
+  total={180mm,250mm},
+  left=20mm,
+  top=30mm,
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+% Draw the border
+\begin{tikzpicture}[remember picture,overlay]
+  \draw[line width = 2pt] 
+    ($(current page.north west) + (1in,-0.5in)$) rectangle 
+    ($(current page.south east) + (-0.5in,0.5in)$);
+\end{tikzpicture}
+
+\begin{center}
+  \textbf{\large VISVESVARAYA TECHNOLOGICAL UNIVERSITY}\\
+  Jnana Sangama, Belgaum-590018\\
+  
+  \vspace{0.2in}
+  
+  \includegraphics[width=1.5cm]{vtu.jpg}\\
+  
+  \vspace{0.2in}
+  
+  \textbf{\large A PROJECT REPORT}\\
+  ON\\
+  \textbf{\large "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}\\
+  
+  \vspace{0.2in}
+  
+  \textit{Submitted in partial fulfillment of the requirements for the award of the degree of}\\
+  
+  \vspace{0.1in}
+  
+  \textbf{\large BACHELOR OF ENGINEERING}\\
+  \textbf{\large IN}\\
+  \textbf{\large COMPUTER SCIENCE AND ENGINEERING}\\
+  
+  \vspace{0.5in}
+  
+  \textbf{Submitted by}\\
+  
+  \vspace{0.5cm}
+  
+  \textbf{Student 1 \hspace{8cm} USN1}\\
+  \textbf{Student 2 \hspace{8cm} USN2}\\
+  \textbf{Student 3 \hspace{8cm} USN3}\\
+  \textbf{Student 4 \hspace{8cm} USN4}\\
+  
+  \vspace{1cm}
+  
+  \textbf{Under the Guidance of}\\
+  
+  \vspace{0.2cm}
+  
+  \textbf{Mr. Sanjay M}\\
+  \textbf{\tiny B.E, M.Tech}\\
+  Asst. Professor, Department of CSE\\
+  RIT, Hassan\\
+  
+  \vspace{1cm}
+  
+  \includegraphics[width=1.5cm]{vtu.jpg}\\
+  
+  \vspace{0.4cm}
+  
+  \textbf{\large DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\\
+  
+  \vspace{0.2cm}
+  
+  \textbf{\large RAJEEV INSTITUTE OF TECHNOLOGY}\\
+  
+  \vspace{0.2cm}
+  
+  B M ROAD BYPASS, HASSAN - 573201\\
+  2024-25\\
+\end{center}
+
+\end{document}
